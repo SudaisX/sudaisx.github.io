@@ -91,7 +91,7 @@ a:hover {
     margin-top: 30px;
 }
 
-.skills h2 {
+.skills, .projects h2 {
     margin-bottom: 50px;
 }
 
@@ -100,6 +100,7 @@ a:hover {
     margin-right: 50px;
     margin-left: 50px;
 }
+
 
 .contact-me {
     width: 40% ;
