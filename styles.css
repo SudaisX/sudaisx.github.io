@@ -318,6 +318,10 @@ img {
     .aboutme_p {
         margin: 20px 0px;
     }
+
+    .aboutme_container-skills {
+        flex-direction: column;
+    }
 }
 
 /* WORK
