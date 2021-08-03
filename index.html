@@ -2,71 +2,83 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Sudais - Aspiring Engineer</title>
-    <link rel="icon" href="images/favicon.ico">
-    <link rel="stylesheet" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento" rel="stylesheet">
+  <!-- Metadata -->
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Title -->
+  <title> Sudais - Aspiring Engineer</title>
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+    integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <div class="top-container">
-        <img src="images/cloud.svg" alt="cloud-top" class="cloud-top">
-        <h1>I'm Sudais.</h1>
-        <p class="title-text">aspiring <span>engineer</span>.</p>
-        <img src="images/cloud.svg" alt="cloud" class="cloud-mid">
-        <img src="images/cloud.svg" alt="cloud" class="cloud-bottom">
-        <img src="images/mountain.svg" alt="mountain" class="mountain-img">
-    </div>
+  <header>
+    <nav class="navbar">
+      <div class="headerleft">
+        <p class="nav-title">💻 Sudais</p>
+      </div>
+      <div class="navlinks">
+        <a class="active" href="/"> 💡 home</a>
+        <a href="work.html"> ⚡ work</a>
+        <a href="about.html"> ✨ about</a>
+      </div>
+    </nav>
+  </header>
 
-    <div class="middle-container">
-        <div class="profile">
-            <img src="images/sudais.png" alt="avatar">
-            <h2>Hello.</h2>
-            <p>
-                Majoring in Computer Science. <br />
-                Exploring Web Dev, Game Dev and AI. <br />
-                Relying heavily on ceffeine to function. ☕
-            </p>
-        </div>
-        <hr>
-        <h2>My Technical Skills.</h2>
-        <div class="skills">
-            <img class="html5-img" src="images/html5.png" alt="HTML5">
-            <img class="css3-img" src="images/css.png" alt="CSS3">
-            <img class="js-img" src="images/js.png" alt="JavaScript">
-            <img class="node-img" src="images/node.png" alt="Node">
-            <img class="python-img" src="images/python.png" alt="Python">
-            <img class="cpp-img" src="images/cpp.png" alt="C++">
-            <img class="git" src="images/git.png" alt="Git">
-            <img class="arduino-img" src="images/arduino.png" alt="Arduino">
-            <img class="creo" src="images/creo.png" alt="Creo">
-        </div>
-        <hr>
 
-        <div class="projects">
-            <h2>Some of the Projects I've worked on:</h2>
-            <div class="project-row">
-                <h3>Project Name</h3>
-                <p>Details.</p>
-            </div>
-        </div>
-        <hr>
+  <!-- *********************** Introduction *********************** -->
 
-        <div class="contact-me">
-            <h2>Get In Touch</h2>
-            <h3>Love building stuff and want to collaborate?.</h3>
-            <p>Lets have a cup of coffee together and code while we are at it..</p>
-            <a class="btn" href="mailto:sudaisyasin@gmail.com">CONTACT ME</a>
-        </div>
-    </div>
+  <section class="home">
+    <h1 class="section_title section_title-home">
+      <span class="wavy"> hello</span>,<br>I'm Sudais</br>
+    </h1>
+    <p class="section_subtitle section_subtitle-home">
+      I'm an Aspiring Engineer majoring in Computer Science at Habib University. I'm also a full-stack developer
+      exploring interests in UI/UX, Data Science, Machine Learning and Robotics.
+    </p>
+    <img src="./images/me.png" alt="profile picture" class="home_img">
+  </section>
 
-    <div class="bottom-container">
-        <a class="footer-link" href="https://www.linkedin.com/in/sudaisyasin/">LinkedIn</a>
-        <a class="footer-link" href="https://github.com/sudaisx/">GitHub</a>
-        <a class="footer-link" href="https://www.sudais.tech/">Website</a>
-        <p class="copyright">©2021 Sudais.</p>
-    </div>
+  <!-- *****************  Footer  ***************** -->
+  <footer class="footer">
+    <!-- <a href="mailto:sudaisyasin@gmail.com" class="footer-link">sudaisyasin@gmail.com</a> -->
+    <ul class="social-list">
+
+      <!-- <li class="social-list_item">
+          <a href="" target="_blank"
+            class="social-list_link">
+            <i class="far fa-file-alt"></i>
+          </a>
+        </li> -->
+
+      <li class="social-list_item">
+        <a href="mailto:sudaisyasin@gmail.com" target="_blank" class="social-list_link">
+          <i class="far fa-envelope"></i>
+        </a>
+      </li>
+
+      <li class="social-list_item">
+        <a href="https://github.com/sudaisx" target="_blank" class="social-list_link">
+          <i class="fab fa-github"></i>
+        </a>
+      </li>
+
+      <li class="social-list_item">
+        <a href="https://www.linkedin.com/in/sudaisyasin/" target="_blank" class=" social-list_link">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </li>
+    </ul>
+    <small class="footer-text">&copy; Sudais 2021</small>
+  </footer>
+
 </body>
 
 </html>
