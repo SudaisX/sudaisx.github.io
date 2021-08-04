@@ -372,6 +372,18 @@ img {
     margin-left: auto;
 }
 
+.project-links {
+    margin-top: 5px;
+}
+
+.project-links a {
+    margin-right: 10px;
+}
+
+.project-links a:hover {
+    color: #c78100;
+}
+
 .project_img {
     width: 130px;
     height: auto;
