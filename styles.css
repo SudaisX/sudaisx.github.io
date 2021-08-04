@@ -376,14 +376,6 @@ img {
     margin-top: 5px;
 }
 
-.project-links a {
-    margin-right: 10px;
-}
-
-.project-links a:hover {
-    color: #c78100;
-}
-
 .project_img {
     width: 130px;
     height: auto;
@@ -399,8 +391,12 @@ img {
 .project_info-github {
     font-weight: bold;
     color: #e59500;
-    margin-top: 10px;
+    margin-right: 10px;
     text-decoration: none;
+}
+
+.project_info-github:hover {
+    color: #c78100;
 }
 
 .project_info a {
