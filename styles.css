@@ -224,13 +224,16 @@ img {
 
 @media (min-width: 587px) {
     .home {
-        display: grid;
+        /* display: grid;
         grid-template-columns: 1fr 300px;
         grid-template-areas:
             'title img'
             'subtitle img'
             'text img';
-        grid-column-gap: 2em;
+        grid-column-gap: 2em; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .section_title-home {
@@ -243,10 +246,11 @@ img {
     }
 
     .home_img {
-        grid-area: img;
+        /* grid-area: img; */
         /* margin: 0 auto; */
 
-        max-width: 100%;
+        max-width: 300px;
+        margin-left: 30px;
         height: auto;
     }
 }
